@@ -907,7 +907,7 @@ void browse_filesystem(const char *start_path) {
         if (strcmp(input, "q") == 0 || strcmp(input, "Q") == 0) {
             break;
         } else if (strcmp(input, "p") == 0 || strcmp(input, "P") == 0) {
-            printf("\n📍 Full Path: %s\n", current_path);
+            printf("\n Full Path: %s\n", current_path);
             printf("\nPress Enter to continue...");
             getchar();
             continue;
@@ -939,7 +939,7 @@ void browse_filesystem(const char *start_path) {
                     printf("  📍 Full Path: %s\n", selected_path);
                     printf("  📊 Size: %ld bytes\n", st.st_size);
                     printf("\n");
-                    printf("  ✅ Path copied! You can use this path for copy/move operations.\n");
+                    printf("  Path copied! You can use this path for copy/move operations.\n");
                     printf("\n");
                     printf("Press Enter to continue...");
                     getchar();

@@ -9,7 +9,7 @@ void clear_screen() {
 void display_menu() {
     printf("\n");
     printf("╔════════════════════════════════════════════════════════╗\n");
-    printf("║     SYSTEM PROGRAMMING - FILE/FOLDER COPY UTILITY     ║\n");
+    printf("║     SYSTEM PROGRAMMING - FILE/FOLDER COPY UTILITY      ║\n");
     printf("╚════════════════════════════════════════════════════════╝\n");
     printf("\n");
     printf("  📁 BASIC OPERATIONS\n");
@@ -27,8 +27,8 @@ void display_menu() {
     printf("  ℹ️  INFORMATION & NAVIGATION\n");
     printf("  [9] Check if Path Exists\n");
     printf("  [10] Get File/Directory Information\n");
-    printf("  [11] 🆕 File Explorer (Browse Files/Folders)\n");
-    printf("  [12] 🆕 List Directory Contents\n");
+    printf("  [11] File Explorer (Browse Files/Folders)\n");
+    printf("  [12] List Directory Contents\n");
     printf("\n");
     printf("  [0] Exit\n");
     printf("\n");
